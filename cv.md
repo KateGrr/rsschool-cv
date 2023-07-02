@@ -12,8 +12,10 @@ I'm communicative and detail-oriented, with a strong analytical mind. Passionate
 * HTML
 * CSS
 * JavaScript (Fundamentals, Functional Programming)
+* Python (Fundamentals) - [Stepik certificate](https://stepik.org/cert/927021)
 * Version control: Git
 * Figma
+* Manual testing - [QA engineer certificate](https://drive.google.com/file/d/1GG-PCNCv5h2HJlqkMC4uEuALFG8rmaab/view?usp=sharing)
 
 ## Code examples
 ``` JavaScript
