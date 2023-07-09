@@ -53,10 +53,12 @@ body {
   min-height: 100px;
   align-items: center;
   justify-content: space-between;
+  font-size: 17px;
 }
 
 .logo-wrapper {
   padding-left: 50px;
+  padding-top: 10px;
 }
 
 .icon-github:before {
@@ -77,11 +79,8 @@ a {
   font-size: 28px;
 }
 
-.menu-link {
-  font-size: 18px;
-}
-
-a:hover {
+a:hover,
+.highlights {
   background-image: linear-gradient(to right, #ff00cc, #333399);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -105,12 +104,25 @@ a:hover {
 }
 
 .about {
+  min-height: 350px;
+  padding: 100px 0px 80px 0px;
   display: flex;
   align-items: center;
 }
 
-.summary {
-  width: 900px;
+.about-wrapper {
+  max-width: 500px;
+  margin: 0px 200px 0px 200px;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 17px;
 }
 
 .photo-wrapper {
@@ -127,3 +139,64 @@ a:hover {
   margin: 0 auto;
 }
 
+.skills-wrapper {
+  min-height: 350px;
+  padding: 80px 0px 80px 0px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.skills-icons{
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.skill-img {
+  width: 88px;
+  height: auto;
+}
+
+.projects-wrapper {
+  min-height: 350px;
+  padding: 80px 200px 80px 200px;
+}
+
+.projects-names {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.project-descr {
+  font-size: 17px;
+}
+
+ul.projects-list {
+  list-style-type: none;
+}
+
+ul.projects-list li {
+  padding-left: 80px;
+  background-image: url(/img/icons/web.png);
+  background-position: 0 0;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+}
+
+.projects-list-wrapper {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.project-links {
+  text-transform: uppercase;
+  text-align: right;
+}
