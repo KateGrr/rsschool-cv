@@ -190,27 +190,27 @@ ul.contacts-list li {
 }
 
 ul.projects-list li {
-  background-image: url(/img/section-icons/web.png);
+  background-image: url(./img/section-icons/web.png);
 }
 
 ul.experience-list li {
-  background-image: url(/img/section-icons/suitcase.png);
+  background-image: url(./img/section-icons/suitcase.png);
 }
 
 ul.education-list li {
-  background-image: url(/img/section-icons/hat.png)
+  background-image: url(./img/section-icons/hat.png)
 }
 
 ul.contacts-list li.location {
-  background-image: url(/img/section-icons/place.png)
+  background-image: url(./img/section-icons/place.png)
 }
 
 ul.contacts-list li.phone {
-  background-image: url(/img/section-icons/phone.png)
+  background-image: url(./img/section-icons/phone.png)
 }
 
 ul.contacts-list li.email {
-  background-image: url(/img/section-icons/email.png)
+  background-image: url(./img/section-icons/email.png)
 }
 
 .projects-list-wrapper {
