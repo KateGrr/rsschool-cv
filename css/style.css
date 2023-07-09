@@ -39,7 +39,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -53,7 +53,6 @@ body {
   min-height: 100px;
   align-items: center;
   justify-content: space-between;
-  font-size: 17px;
 }
 
 .logo-wrapper {
@@ -121,10 +120,6 @@ a:hover,
   margin-bottom: 20px;
 }
 
-.about-text {
-  font-size: 17px;
-}
-
 .photo-wrapper {
   width: 250px;
   height: 250px;
@@ -174,20 +169,31 @@ img.skill-img {
   margin-bottom: 5px;
 }
 
-.project-descr {
-  font-size: 17px;
-}
-
-ul.projects-list {
+ul.projects-list,
+ul.experience-list,
+ul.education-list {
   list-style-type: none;
 }
 
-ul.projects-list li {
+ul.projects-list li,
+ul.experience-list li,
+ul.education-list li {
   padding-left: 80px;
-  background-image: url(/img/icons/web.png);
   background-position: 0 0;
   background-size: 60px 60px;
   background-repeat: no-repeat;
+}
+
+ul.projects-list li {
+  background-image: url(/img/icons/web.png);
+}
+
+ul.experience-list li {
+  background-image: url(/img/icons/suitcase.png);
+}
+
+ul.education-list li {
+  background-image: url(/img/icons/hat.png)
 }
 
 .projects-list-wrapper {
@@ -199,4 +205,35 @@ ul.projects-list li {
 .project-links {
   text-transform: uppercase;
   text-align: right;
+}
+
+.experience-wrapper {
+  min-height: 350px;
+  padding: 0px 200px 80px 200px;
+}
+
+.experience-date {
+  padding-bottom: 10px;
+}
+
+.experience-descr {
+  padding-bottom: 20px;
+}
+
+.education-wrapper {
+  min-height: 350px;
+  padding: 0px 200px 80px 200px;
+}
+
+.education-name {
+  padding-bottom: 10px;
+}
+
+.education-descr {
+  padding-bottom: 40px;
+}
+
+li.with-link {
+  display: flex;
+  justify-content: space-between;
 }
