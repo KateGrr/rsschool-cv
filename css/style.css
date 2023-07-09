@@ -1,0 +1,298 @@
+/*----------------connect icon font-------------------------------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?p708do');
+  src:  url('../fonts/icomoon.eot?p708do#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?p708do') format('truetype'),
+    url('../fonts/icomoon.woff?p708do') format('woff'),
+    url('../fonts/icomoon.svg?p708do#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*----------------------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  min-height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-width: thin;
+}
+
+.logo-wrapper {
+  padding: 15px 0px;
+}
+
+.icon-github:before {
+  content: "\eab0";
+}
+
+.icon-linkedin:before {
+  content: "\eac9";
+  margin-left: 5px
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contact-icon {
+  font-size: 28px;
+}
+
+a:hover,
+.highlights {
+  background-image: linear-gradient(to right, #ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  transition: .3s;
+  padding: 0 30px 0 0;
+  line-height: 50px;
+}
+
+.contacts-wrapper {
+  padding-top: 50px;
+}
+
+.about {
+  min-height: 350px;
+  padding: 100px 0px 80px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.about-wrapper {
+  max-width: 500px;
+  margin: 0px 200px 0px 200px;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.photo-wrapper {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.photo {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.skills-wrapper {
+  min-height: 350px;
+  padding: 80px 0px 80px 0px;
+}
+
+h2:not(.contact-me) {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+
+.skills-icons{
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.skill-img {
+  width: 88px;
+  height: auto;
+}
+
+.projects-wrapper {
+  min-height: 350px;
+  padding: 80px 200px 80px 200px;
+}
+
+.projects-names {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+ul.projects-list,
+ul.experience-list,
+ul.education-list,
+ul.contacts-list {
+  list-style-type: none;
+}
+
+ul.projects-list li,
+ul.experience-list li,
+ul.education-list li,
+ul.contacts-list li {
+  padding-left: 80px;
+  background-position: 0 0;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+}
+
+ul.projects-list li {
+  background-image: url(../img/section-icons/web.png);
+}
+
+ul.experience-list li {
+  background-image: url(../img/section-icons/suitcase.png);
+}
+
+ul.education-list li {
+  background-image: url(../img/section-icons/hat.png)
+}
+
+ul.contacts-list li.location {
+  background-image: url(../img/section-icons/place.png)
+}
+
+ul.contacts-list li.phone {
+  background-image: url(../img/section-icons/phone.png)
+}
+
+ul.contacts-list li.email {
+  background-image: url(../img/section-icons/email.png)
+}
+
+.projects-list-wrapper {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.project-links {
+  text-transform: uppercase;
+  padding-left: 120px;
+}
+
+.experience-wrapper {
+  min-height: 350px;
+  padding: 0px 200px 80px 200px;
+}
+
+.experience-date {
+  padding-bottom: 10px;
+}
+
+.experience-descr {
+  padding-bottom: 20px;
+}
+
+.education-wrapper {
+  min-height: 350px;
+  padding: 0px 200px 80px 200px;
+}
+
+.education-name {
+  padding-bottom: 10px;
+}
+
+.education-descr {
+  padding-bottom: 40px;
+}
+
+li.with-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 200px;
+  margin-bottom: 50px;
+}
+
+.contacts-logo {
+  padding-left: 50px;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contacts-list li {
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 150px;
+  border-top: solid;
+  border-width: thin;
+}
+
+.rs-logo {
+  height: 50px;
+}
