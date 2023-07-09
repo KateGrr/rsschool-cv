@@ -218,9 +218,15 @@ ul.contacts-list li.email {
   justify-content: space-between;
 }
 
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
 .project-links {
   text-transform: uppercase;
-  text-align: right;
+  padding-left: 120px;
 }
 
 .experience-wrapper {
