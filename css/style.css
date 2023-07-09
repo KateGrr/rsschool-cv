@@ -41,6 +41,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 400;
+  margin: 10px;
 }
 
 .container {
@@ -290,4 +291,8 @@ li.with-link {
   min-height: 150px;
   border-top: solid;
   border-width: thin;
+}
+
+.rs-logo {
+  height: 50px;
 }
