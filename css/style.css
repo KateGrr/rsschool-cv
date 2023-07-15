@@ -211,21 +211,30 @@ ul.contacts-list li.email {
   background-image: url(../img/section-icons/email.png)
 }
 
-.projects-list-wrapper {
+.projects-wrapper {
+  min-height: 350px;
+  padding: 0px 200px 80px 200px;
+}
+
+.projects-li {
   display: flex;
-  align-items:center;
   justify-content: space-between;
 }
 
-.project-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
+.project-data {
+  max-width: 600px;
+}
+
+.project-name {
+  padding-bottom: 10px;
+}
+
+.project-descr {
+  padding-bottom: 20px;
 }
 
 .project-links {
   text-transform: uppercase;
-  padding-left: 120px;
 }
 
 .experience-wrapper {
