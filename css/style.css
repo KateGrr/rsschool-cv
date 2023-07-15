@@ -59,7 +59,12 @@ body {
 }
 
 .logo-wrapper {
-  padding: 15px 0px;
+  padding: 10px 10px 0px 0px;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
 }
 
 .icon-github:before {
@@ -92,11 +97,13 @@ a:hover,
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .nav-link {
   transition: .3s;
-  padding: 0 30px 0 0;
+  /* padding: 0 30px 0 0; */
   line-height: 50px;
 }
 
