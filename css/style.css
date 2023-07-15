@@ -41,7 +41,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 400;
-  margin: 10px;
+  margin: 0 30px;
 }
 
 .container {
@@ -59,7 +59,12 @@ body {
 }
 
 .logo-wrapper {
-  padding: 15px 0px;
+  padding: 10px 10px 0px 0px;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
 }
 
 .icon-github:before {
@@ -92,11 +97,13 @@ a:hover,
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .nav-link {
   transition: .3s;
-  padding: 0 30px 0 0;
+  /* padding: 0 30px 0 0; */
   line-height: 50px;
 }
 
@@ -104,16 +111,17 @@ a:hover,
   padding-top: 50px;
 }
 
-.about {
+.about-wrapper {
   min-height: 350px;
-  padding: 100px 0px 80px 0px;
+  padding: 80px 0px 80px 0px;
+  max-width: 1050px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
 }
 
-.about-wrapper {
-  max-width: 500px;
-  margin: 0px 200px 0px 200px;
+.about-descr {
+  max-width: 600px;
 }
 
 .about-header {
@@ -125,15 +133,12 @@ a:hover,
 .photo-wrapper {
   width: 250px;
   height: 250px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 50%;
 }
 
 .photo {
   width: auto;
   height: 100%;
-  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .skills-wrapper {
@@ -148,13 +153,13 @@ h2:not(.contact-me) {
   margin-bottom: 60px;
 }
 
-
 .skills-icons{
   max-width: 1050px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 img.skill-img {
@@ -213,21 +218,30 @@ ul.contacts-list li.email {
   background-image: url(../img/section-icons/email.png)
 }
 
-.projects-list-wrapper {
+.projects-wrapper {
+  min-height: 350px;
+  padding: 0px 200px 80px 200px;
+}
+
+.projects-li {
   display: flex;
-  align-items:center;
   justify-content: space-between;
 }
 
-.project-wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 50px;
+.project-data {
+  max-width: 600px;
+}
+
+.project-name {
+  padding-bottom: 10px;
+}
+
+.project-descr {
+  padding-bottom: 20px;
 }
 
 .project-links {
   text-transform: uppercase;
-  padding-left: 120px;
 }
 
 .experience-wrapper {
@@ -253,10 +267,10 @@ ul.contacts-list li.email {
 }
 
 .education-descr {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
-li.with-link {
+.education-li {
   display: flex;
   justify-content: space-between;
 }
