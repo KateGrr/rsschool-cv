@@ -41,7 +41,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 400;
-  margin: 10px;
+  margin: 0 30px;
 }
 
 .container {
@@ -125,15 +125,13 @@ a:hover,
 .photo-wrapper {
   width: 250px;
   height: 250px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 50%;
+  margin-right: 150px;
 }
 
 .photo {
   width: auto;
   height: 100%;
-  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .skills-wrapper {
