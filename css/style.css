@@ -251,10 +251,10 @@ ul.contacts-list li.email {
 }
 
 .education-descr {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
-li.with-link {
+.education-li {
   display: flex;
   justify-content: space-between;
 }
